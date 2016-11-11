@@ -14,27 +14,27 @@ curl -Lo kubectl http://storage.googleapis.com/kubernetes-release/release/v1.4.5
 
 minikube operations:
 
-minikube start__
-minikube stop__
-minikube status__
+minikube start<br>
+minikube stop<br>
+minikube status<br>
 
 kubectl operations:
 
-kubectl get nodes__
-kubectl get svc__
-kubectl get cd__
-kubectl get rc__
+kubectl get nodes<br>
+kubectl get svc<br>
+kubectl get cd<br>
+kubectl get rc<br>
 
 we will use https://github.com/coopermaa/hit-counter-demo to build the necesary pods for this demo.
 git clone git@github.com:coopermaa/hit-counter-demo.git
 
 To create all kubernetes components:
 
-kubectl create -f db-pod.yml__
-kubectl create -f web-pod.yml__
-kubectl create -f db-svc.yml__
-kubectl create -f web-svc.yml__
-kubectl create -f web-rc.yml__
+kubectl create -f db-pod.yml<br>
+kubectl create -f web-pod.yml<br>
+kubectl create -f db-svc.yml<br>
+kubectl create -f web-svc.yml<br>
+kubectl create -f web-rc.yml<br>
 
 
 to take a look inside containers:
