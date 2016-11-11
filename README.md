@@ -31,11 +31,12 @@ git clone git@github.com:coopermaa/hit-counter-demo.git
 To create all kubernetes components:
 
 kubectl create -f db-pod.yml
-kubectl create -f web-pod.yml
+kubectl create -f web-deployment.yml
 kubectl create -f db-svc.yml
 kubectl create -f web-svc.yml
-kubectl create -f web-rc.yml
 
+To scale to 5 replicas:
+kubectl scale --replicas=5 -f web-deployment.yml
 
 to take a look inside containers:
 kubectl exec -it web /bin/bash

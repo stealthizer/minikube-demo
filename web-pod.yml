@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: janakiramm/web
+      image: k8s-test
       ports:
         - containerPort: 5000
           name: http
