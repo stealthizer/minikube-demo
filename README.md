@@ -1,4 +1,4 @@
-#kubernetes-demo
+#minikube-demo
 
 This is an introductory hands on lab on kubernetes technology. To make it work:
 
