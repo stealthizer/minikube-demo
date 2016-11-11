@@ -1,4 +1,4 @@
-#kubernetes-demo
+#minikube-demo
 
 This is an introductory hands on lab on kubernetes technology. To make it work:
 
@@ -14,16 +14,16 @@ curl -Lo kubectl http://storage.googleapis.com/kubernetes-release/release/v1.4.5
 
 minikube operations:
 
-minikube start
-minikube stop
-minikube status
+minikube start<br>
+minikube stop<br>
+minikube status<br>
 
 kubectl operations:
 
-kubectl get nodes
-kubectl get svc
-kubectl get cd
-kubectl get rc
+kubectl get nodes<br>
+kubectl get svc<br>
+kubectl get cd<br>
+kubectl get rc<br>
 
 we will use https://github.com/coopermaa/hit-counter-demo to build the necesary pods for this demo.
 git clone git@github.com:coopermaa/hit-counter-demo.git
